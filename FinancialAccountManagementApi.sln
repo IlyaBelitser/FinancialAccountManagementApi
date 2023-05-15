@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AEE8E714-50CC-4475-9F6A-76398DB4FCA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1D0EAE08-A937-4654-9883-A693BDEF5ABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialAccountManagementApi", "src\FinancialAccountManagementApi\FinancialAccountManagementApi.csproj", "{5C15DEE6-304A-48F4-B682-37BF908CA287}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialAccountManagementApi.FunctionalTests", "tests\FinancialAccountManagementApi.FunctionalTests\FinancialAccountManagementApi.FunctionalTests.csproj", "{6F9DFC23-8A37-4560-A580-FDB1EFD22C89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C15DEE6-304A-48F4-B682-37BF908CA287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C15DEE6-304A-48F4-B682-37BF908CA287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C15DEE6-304A-48F4-B682-37BF908CA287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C15DEE6-304A-48F4-B682-37BF908CA287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9DFC23-8A37-4560-A580-FDB1EFD22C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9DFC23-8A37-4560-A580-FDB1EFD22C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9DFC23-8A37-4560-A580-FDB1EFD22C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9DFC23-8A37-4560-A580-FDB1EFD22C89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C15DEE6-304A-48F4-B682-37BF908CA287} = {AEE8E714-50CC-4475-9F6A-76398DB4FCA6}
+		{6F9DFC23-8A37-4560-A580-FDB1EFD22C89} = {1D0EAE08-A937-4654-9883-A693BDEF5ABA}
+	EndGlobalSection
+EndGlobal
